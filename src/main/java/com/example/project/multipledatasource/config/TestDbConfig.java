@@ -19,9 +19,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "personEntityManagerFactoryBean",
         transactionManagerRef = "personTransactionManager",
-        basePackages = {"com.example.project.multipledatasource.repository.person"}
+        basePackages = {"com.example.project.multipledatasource.repository.testdb"}
 )
-public class TestDb2Config {
+public class TestDbConfig {
 
     @Bean(name = "test2DataSource")
     @ConfigurationProperties(prefix = "spring.datasource2")

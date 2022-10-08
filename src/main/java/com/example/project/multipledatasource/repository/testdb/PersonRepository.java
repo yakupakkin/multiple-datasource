@@ -1,4 +1,4 @@
-package com.example.project.multipledatasource.repository.person;
+package com.example.project.multipledatasource.repository.testdb;
 
 import com.example.project.multipledatasource.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;

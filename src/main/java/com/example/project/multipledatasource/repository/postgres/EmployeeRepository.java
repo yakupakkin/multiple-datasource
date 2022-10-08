@@ -1,4 +1,4 @@
-package com.example.project.multipledatasource.repository.employee;
+package com.example.project.multipledatasource.repository.postgres;
 
 import com.example.project.multipledatasource.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;

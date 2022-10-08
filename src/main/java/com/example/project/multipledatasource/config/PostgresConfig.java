@@ -21,9 +21,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "employeeEntityManagerFactoryBean",
         transactionManagerRef = "employeeTransactionManager",
-        basePackages = {"com.example.project.multipledatasource.repository.employee"}
+        basePackages = {"com.example.project.multipledatasource.repository.postgres"}
 )
-public class TestDb1Config {
+public class PostgresConfig {
 
     @Bean(name = "test1DataSource")
     @Primary
